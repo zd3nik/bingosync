@@ -18,14 +18,14 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
 
-IS_PROD = False
+IS_PROD = True
 
 from bingosync.secret_settings import SECRET_KEY, ADMINS, SERVER_EMAIL, DB_USER
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = not IS_PROD
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
+ALLOWED_HOSTS = ["127.0.0.1", "localhost", "bingosync.bingothon.com"]
 
 EMAIL_HOST = "localhost"
 EMAIL_PORT = 25
@@ -206,7 +206,7 @@ STATIC_ROOT = '/var/www/bingosync.com/static/'
 
 
 INTERNAL_SOCKETS_URL = "127.0.0.1:8888"
-PUBLIC_SOCKETS_URL = "sockets.bingosync.com"
+PUBLIC_SOCKETS_URL = "bingosock.bingothon.com"
 
 if IS_PROD:
     SOCKETS_URL = "wss://" + PUBLIC_SOCKETS_URL
