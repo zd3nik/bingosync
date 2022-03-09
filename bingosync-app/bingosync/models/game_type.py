@@ -943,9 +943,10 @@ GAME_GROUPS = {
             (GameType.zelda_wind_waker_randomizer, "Randomizer", "TWW Rando"),
         ],
     },
-    GameType.rayman_ps1: {
+    GameType.rayman_ps1_legacy: {
         "name": "Rayman (PS1)",
         "variants": [
+            (GameType.rayman_ps1_legacy, "Legacy", "Rayman Legacy"),
             (GameType.rayman_ps1_random, "Random", "Rayman Random"),
             (GameType.rayman_ps1_competitive, "Competitive", "Rayman Competitive"),
         ],

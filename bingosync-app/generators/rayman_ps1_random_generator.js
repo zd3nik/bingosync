@@ -97,7 +97,7 @@ var bingoList = [
     "Beat Space Mama while having exactly 19 cages",
     "Perform The Squeeze",
     "Beat Space Mama after beating sax",
-    "Get all CP cages in reverse order},
+    "Get all CP cages in reverse order",
     "Complete CP1 whilst collecting 12 tings or less",
     "Max% and Damageless Crystal Palace",
     "Beat the CP Magician under 20 seconds",
