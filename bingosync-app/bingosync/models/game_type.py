@@ -417,6 +417,7 @@ HIDDEN_VARIANTS = {
     GameType.super_mario_sunshine_lockout,
     GameType.super_mario_sunshine_tournament,
     GameType.video_games,
+    GameType.rayman_ps1,
 }
 
 GAME_GROUPS = {
@@ -939,6 +940,13 @@ GAME_GROUPS = {
             (GameType.zelda_wind_waker_randomizer, "Randomizer", "TWW Rando"),
         ],
     },
+    GameType.rayman_ps1: {
+        "name": "Rayman (PS1)",
+        "variants": [
+            (GameType.rayman_ps1_random, "Random", "Rayman Random"),
+            (GameType.rayman_ps1_competitive, "Competitive", "Rayman Competitive"),
+        ],
+    },
     **singleton_group(GameType._102_dalmatians, "102 Dalmatians: Puppies to the Rescue", "102 Dal: PTTR"),
     **singleton_group(GameType.a_bugs_life, "A Bug's Life", "Bug's Life"),
     **singleton_group(GameType.adams_family, "The Addams Family (SNES)", "Addams Family"),
@@ -1036,7 +1044,6 @@ GAME_GROUPS = {
     **singleton_group(GameType.quest_for_glory_vga, "Quest for Glory 1 VGA", "QFG1 VGA"),
     **singleton_group(GameType.rabi_ribi, "Rabi-Ribi", "Rabi-Ribi"),
     **singleton_group(GameType.rayman_legends, "Rayman Legends", "Rayman Legends"),
-    **singleton_group(GameType.rayman_ps1, "Rayman (PS1)", "Rayman"),
     **singleton_group(GameType.revenge_of_the_bird_king, "Revenge of the Bird King", "RotBK"),
     **singleton_group(GameType.riven, "Riven: The Sequel to Myst", "Riven"),
     **singleton_group(GameType.road_trip_adventure, "Road Trip Adventure", "Road Trip Adv."),
