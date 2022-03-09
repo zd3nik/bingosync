@@ -39,7 +39,7 @@ class GameType(Enum):
     pikmin_2 = 35
     alttp_randomizer = 36
     pokemon_platinum = 37
-    rayman_ps1 = 38
+    rayman_ps1_legacy = 38
     pokemon_crystal_randomizer = 39
     pokemon_emerald_old_randomizer = 40
     pokemon_crystal_classic_randomizer = 41
@@ -420,7 +420,7 @@ HIDDEN_VARIANTS = {
     GameType.super_mario_sunshine_lockout,
     GameType.super_mario_sunshine_tournament,
     GameType.video_games,
-    GameType.rayman_ps1,
+    GameType.rayman_ps1_legacy,
 }
 
 GAME_GROUPS = {
