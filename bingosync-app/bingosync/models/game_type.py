@@ -325,6 +325,8 @@ class GameType(Enum):
     reventure = 321
     crash_twinsanity_hoverless_variant = 322
     around_the_clock_at_bikini_bottom = 323
+    rayman_ps1_random = 324
+    rayman_ps1_competitive = 325
 
     def __str__(self):
         return self.short_name
