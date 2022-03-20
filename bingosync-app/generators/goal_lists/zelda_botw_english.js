@@ -602,7 +602,7 @@ bingoList[22] = [
     { name: "Collect 6 Picture Memories", types: ["Camera"] },
     { name: "Full Radiant Set", types: ["Clothes","Radiant Gear","Rupee","Gems","Gerudo Set"] },
     { name: "'Legendary Rabbit Trial' Side Quest", types: ["Side Quest","Woodland","Camera"] },
-    { name: "'Slated for Upgrades' Side Quest", types: ["Side Quest","Hateno","Camera"] }
+    { name: "'Slated for Upgrades' Side Quest", types: ["Side Quest","Hateno","Camera"] },
     { name: "Activate 8 Towers", types: ["Tower"] },
 ];
 bingoList[23] = [
