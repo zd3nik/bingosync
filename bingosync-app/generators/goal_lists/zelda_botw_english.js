@@ -118,7 +118,7 @@ bingoList[5] = [
     { name: "Any Enduring meal", types: ["Cooking"] },
     { name: "Any Fairy Tonic", types: ["Cooking"] },
     { name: "Kill a Lynel", types: ["Miniboss","Lynel"] },
-    { name: "Kill Coliseum Lynel", types: ["Miniboss","Lynel"] },
+    { name: "Kill colosseum Lynel", types: ["Miniboss","Lynel"] },
     { name: "Kill a Lynel without Ancient Arrows", types:["Miniboss","Lynel"] },
     { name: "Kill a Stone Talus (Rare)", types: ["Miniboss","Talus","Rupee","Gems"] },
     { name: "Any Guardian Shield", types: ["Equipment","Guardian"] },
