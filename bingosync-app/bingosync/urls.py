@@ -28,6 +28,7 @@ urlpatterns = [
     url(r'^history', views.history, name='history'),
     url(r'^convert', views.goal_converter, name='goal_converter'),
     url(r'^about', views.about, name='about'),
+    url(r'^clear-board-cache', views.clear_board_cache, name='clear_board_cache'),
     url(r'^api/select$', views.goal_selected, name='goal_selected'),
     url(r'^api/chat$', views.chat_message, name='chat_message'),
     url(r'^api/color$', views.select_color, name='select_color'),

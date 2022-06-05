@@ -23,9 +23,11 @@ class BingoGenerator:
 
     @staticmethod
     def instance(game_name):
-        if game_name not in BingoGenerator.CACHED_INSTANCES:
-            BingoGenerator.CACHED_INSTANCES[game_name] = load_generator(game_name)
-        return BingoGenerator.CACHED_INSTANCES[game_name]
+        generator = BingoGenerator.CACHED_INSTANCES.get(game_name)
+        if not generator:
+            generator = load_generator(game_name)
+            BingoGenerator.CACHED_INSTANCES[game_name] = generator
+        return generator
 
     @staticmethod
     def reload(game_name):
@@ -55,6 +57,9 @@ class BingoGenerator:
         js_command = "bingoGenerator(bingoList, " + json.dumps(opts) + ")"
         card = self.eval(js_command)
         return process_card(card, self.game_name)
+    
+    def clear_board_cache():
+        BingoGenerator.CACHED_INSTANCES.clear()
 
 
 def process_card(card, game_name):

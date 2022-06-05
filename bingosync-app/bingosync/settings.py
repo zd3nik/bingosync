@@ -21,6 +21,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 IS_PROD = True
 
 from bingosync.secret_settings import SECRET_KEY, ADMINS, SERVER_EMAIL, DB_USER
+try:
+    # used to clear the board cache without restarting the server
+    from bingosync.secret_settings import SECRET_CACHE_KEY
+except ImportError:
+    SECRET_CACHE_KEY = None
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = not IS_PROD

@@ -11,8 +11,9 @@ import requests
 import random
 import logging
 
-from bingosync.settings import SOCKETS_URL, SOCKETS_PUBLISH_URL, IS_PROD
+from bingosync.settings import SOCKETS_URL, SOCKETS_PUBLISH_URL, IS_PROD, SECRET_CACHE_KEY
 from bingosync.generators import InvalidBoardException
+from bingosync.generators.bingo_generator import BingoGenerator
 from bingosync.forms import RoomForm, JoinRoomForm, GoalListConverterForm
 from bingosync.models.colors import Color
 from bingosync.models.game_type import GameType, ALL_VARIANTS
@@ -365,6 +366,14 @@ def goal_converter(request):
 def jstests(request):
     return render(request, "bingosync/tests/jstest.html", {})
 
+def clear_board_cache(request):
+    if not SECRET_CACHE_KEY:
+        return HttpResponseBadRequest("no key set to clear board cache")
+    elif SECRET_CACHE_KEY != request.GET.get('key'):
+        return HttpResponseBadRequest("wrong key")
+    else:
+        BingoGenerator.clear_board_cache()
+        return HttpResponse("cache cleared!")
 
 # Helpers for interacting with sessions
 
