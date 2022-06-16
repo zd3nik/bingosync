@@ -327,6 +327,8 @@ class GameType(Enum):
     around_the_clock_at_bikini_bottom = 323
     rayman_ps1_random = 324
     rayman_ps1_competitive = 325
+    zelda_skyward_sword_rando = 326
+    zelda_skyward_sword_rando_blackout = 327
 
     def __str__(self):
         return self.short_name
@@ -951,6 +953,14 @@ GAME_GROUPS = {
             (GameType.rayman_ps1_competitive, "Competitive", "Rayman Competitive"),
         ],
     },
+    GameType.zelda_skyward_sword: {
+        "name": "Zelda: Skyward Sword",
+        "variants": [
+            (GameType.zelda_skyward_sword, "Normal", "Zelda: SS"),
+            (GameType.zelda_skyward_sword_rando, "Randomizer", "Zelda: SS Rando"),
+            (GameType.zelda_skyward_sword_rando_blackout, "Randomizer (Blackout)", "SS Rando Blackout"),
+        ],
+    },
     **singleton_group(GameType._102_dalmatians, "102 Dalmatians: Puppies to the Rescue", "102 Dal: PTTR"),
     **singleton_group(GameType.a_bugs_life, "A Bug's Life", "Bug's Life"),
     **singleton_group(GameType.adams_family, "The Addams Family (SNES)", "Addams Family"),
@@ -1085,7 +1095,6 @@ GAME_GROUPS = {
     **singleton_group(GameType.yooka_laylee, "Yooka-Laylee", "Yook"),
     **singleton_group(GameType.yooka_laylee_impossible_lair, "Yooka-Laylee and the Impossible Lair", "YLIL"),
     **singleton_group(GameType.zelda_minish_cap_randomizer, "Zelda: The Minish Cap Randomizer", "TMCR"),
-    **singleton_group(GameType.zelda_skyward_sword, "Zelda: Skyward Sword", "Zelda: SS"),
     **singleton_group(GameType.zelda_twilight_princess, "Zelda: Twilight Princess", "Zelda: TP"),
 }
 
