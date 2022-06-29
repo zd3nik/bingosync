@@ -477,7 +477,7 @@ bingoList[16] = [
     { name: "'The Spring of Power' Shrine Quest", types: ["Shrine","Shrine Quest","Akkala","Dragon"] }
 ];
 bingoList[17] = [
-    { name: "Activate Hebra and Eldin Towers", types: ["Tower","Hebra","Endin"] },
+    { name: "Activate Hebra and Eldin Towers", types: ["Tower","Hebra","Elden"] },
     { name: "Free Naydra", types: ["Dragon"] },
     { name: "12 Hateno Koroks", types: ["Korok","Hateno"] },
     { name: "1 Shrine from 5 Regions", types: ["Shrine"] },
