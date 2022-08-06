@@ -803,13 +803,13 @@ var bingoList = {
 },
 
 "str_4_NPC": {
-        "Desc": "Defeat a Strength 4 NPC",
-        "Diff": 3,
+        "Desc": "Defeat a Strength 4+ NPC",
+        "Diff": 2,
         "Types": ["combat_set","combat","str_#_NPC"]
 },
 
 "all_pouches": {
-        "Desc": "Each (5) Unique Money Pouches",
+        "Desc": "Each (5) Unique Money Pouch",
         "Diff": 4,
         "Types": ["item_set","gold_item","items"]
 },
@@ -1151,14 +1151,14 @@ var bingoList = {
 },
 
 "8_u_concoct": {
-        "Desc": "4 Unique Concoctions Used",
-        "Diff": 5,
+        "Desc": "8 Unique Concoctions Used",
+        "Diff": 9,
         "Types": ["combat_counts","items","specific_character","combat","#_u_concoct"]
 },
 
 "str_5_NPC": {
-        "Desc": "Defeat a Strength 5 NPC",
-        "Diff": 7,
+        "Desc": "Defeat a Strength 5+ NPC",
+        "Diff": 6,
         "Types": ["combat_set","combat","str_#_NPC"]
 },
 
@@ -1236,7 +1236,7 @@ var bingoList = {
 
 "5_chapter_2_chests": {
         "Desc": "Open 5 Chests in a single Chapter 2 Dungeon",
-        "Diff": 5,
+        "Diff": 6,
         "Types": ["chest","chest_set","exploration","ch_2"]
 },
 
@@ -1273,8 +1273,8 @@ var bingoList = {
 
 "1_u_boss_drop": {
         "Desc": "1 Boss Equipment Drop",
-        "Diff": 9,
-        "Types": ["broad_item_set","armor","weapon","progression","items","progression","#_u_boss_drop"]
+        "Diff": 11,
+        "Types": ["broad_item_set","armor","weapon","progression","items","#_u_boss_drop","chapter","#_ch_2","ch_2","1_ch_2"]
 },
 
 "10_t_s_nuts": {
@@ -1343,6 +1343,12 @@ var bingoList = {
         "Types": ["extended_combat","specific_character","beast_lore","combat_set","combat","str_#_bl"]
 },
 
+"1_ch_2": {
+        "Desc": "Complete a Chapter 2",
+        "Diff": 11,
+        "Types": ["chapter","progression","#_ch_2","ch_2"]
+},
+
 "ophilia_ch_2": {
         "Desc": "Complete Ophilia Chapter 2",
         "Diff": 14,
@@ -1354,14 +1360,14 @@ var bingoList = {
         "Desc": "Complete Cyrus Chapter 2",
         "Diff": 11,
         "Types": ["chapter","progression","ch_2","specific_chapter","specific_character"],
-        "Excludes": ["1_ch_2","2_ch_2","tressa_ch_2","therion_ch_2"]
+        "Excludes": ["1_ch_2","2_ch_2","tressa_ch_2"]
 },
 
 "tressa_ch_2": {
         "Desc": "Complete Tressa Chapter 2",
         "Diff": 13,
         "Types": ["chapter","progression","ch_2","specific_chapter","specific_character"],
-        "Excludes": ["1_ch_2","2_ch_2","cyrus_ch_2","therion_ch_2"]
+        "Excludes": ["1_ch_2","2_ch_2","cyrus_ch_2"]
 },
 
 "olberic_ch_2": {
@@ -1389,7 +1395,7 @@ var bingoList = {
         "Desc": "Complete Therion Chapter 2",
         "Diff": 14,
         "Types": ["chapter","progression","ch_2","specific_chapter","specific_character"],
-        "Excludes": ["1_ch_2","2_ch_2","cyrus_ch_2","tressa_ch_2"]
+        "Excludes": ["1_ch_2"]
 },
 
 "haanit_ch_2": {
@@ -1545,7 +1551,7 @@ var bingoList = {
 
 "2_optional_bosses": {
         "Desc": "Defeat 2 Unique Optional Bosses",
-        "Diff": 13,
+        "Diff": 12,
         "Types": ["boss","exploration","#_optional_bosses"]
 },
 
@@ -1648,8 +1654,8 @@ var bingoList = {
 },
 
 "str_6_NPC": {
-        "Desc": "Defeat a Strength 6 NPC",
-        "Diff": 12,
+        "Desc": "Defeat a Strength 6+ NPC",
+        "Diff": 10,
         "Types": ["combat_set","combat","str_#_NPC"]
 },
 
@@ -1775,7 +1781,7 @@ var bingoList = {
 
 "2_alluring": {
         "Desc": "2 Alluring Ribbons",
-        "Diff": 14,
+        "Diff": 8,
         "Types": ["item_set","accessory","side_stories","items","#_alluring"]
 },
 
@@ -1884,13 +1890,13 @@ var bingoList = {
 
 "3_optional_bosses": {
         "Desc": "Defeat 3 Unique Optional Bosses",
-        "Diff": 19,
+        "Diff": 16,
         "Types": ["boss","exploration","#_optional_bosses"]
 },
 
 "16_u_concoct": {
-        "Desc": "8 Unique Concoctions Used",
-        "Diff": 10,
+        "Desc": "16 Unique Concoctions Used",
+        "Diff": 18,
         "Types": ["combat_counts","items","specific_character","combat","#_u_concoct"]
 },
 
@@ -1987,8 +1993,8 @@ var bingoList = {
 
 "2_u_boss_drop": {
         "Desc": "2 Unique Boss Equipment Drops",
-        "Diff": 17,
-        "Types": ["broad_item_set","armor","weapon","progression","items","progression","#_u_boss_drop"]
+        "Diff": 19,
+        "Types": ["broad_item_set","armor","weapon","progression","items","#_u_boss_drop","chapter","#_ch_2","ch_2","2_ch_2","1_ch_2"]
 },
 
 "4_u_stones": {
@@ -2001,6 +2007,12 @@ var bingoList = {
         "Desc": "500+ Elemental Defense",
         "Diff": 17,
         "Types": ["elem_def","stats","#_elem_def"]
+},
+
+"3_npc_summons": {
+        "Desc": "Expend all Summons on NPCs 3 times",
+        "Diff": 19,
+        "Types": ["combat_counts","extended_combat","combat","#_npc_summons"]
 },
 
 "8_u_silver": {
@@ -2101,7 +2113,7 @@ var bingoList = {
 },
 
 "ch_2_duo": {
-        "Desc": "Chapter 2 Boss with 2 only Travelers",
+        "Desc": "Chapter 2 Boss with 2 only Travelers (No Gideon)",
         "Diff": 17,
         "Types": ["combat_challenge","boss","progression","combat","ch_2"]
 },
@@ -2127,7 +2139,7 @@ var bingoList = {
 
 "str_7_NPC": {
         "Desc": "Defeat a Strength 7+ NPC",
-        "Diff": 19,
+        "Diff": 16,
         "Types": ["combat_set","combat","str_#_NPC"]
 },
 
@@ -2193,7 +2205,7 @@ var bingoList = {
 
 "4_optional_bosses": {
         "Desc": "Defeat 4 Unique Optional Bosses",
-        "Diff": 23,
+        "Diff": 20,
         "Types": ["boss","exploration","#_optional_bosses"]
 },
 
@@ -2206,7 +2218,7 @@ var bingoList = {
 
 "3_u_forbidden": {
         "Desc": "3 Unique Forbbiden Equipments",
-        "Diff": 20,
+        "Diff": 18,
         "Types": ["item_set","weapon","forbidden","items","#_u_forbidden"]
 },
 
@@ -2249,7 +2261,7 @@ var bingoList = {
 
 "3_alluring": {
         "Desc": "3 Alluring Ribbons",
-        "Diff": 21,
+        "Diff": 11,
         "Types": ["item_set","accessory","side_stories","items","#_alluring"]
 },
 
@@ -2267,8 +2279,8 @@ var bingoList = {
 
 "3_u_boss_drop": {
         "Desc": "3 Unique Boss Equipment Drops",
-        "Diff": 22,
-        "Types": ["broad_item_set","armor","weapon","progression","items","progression","#_u_boss_drop"]
+        "Diff": 25,
+        "Types": ["broad_item_set","armor","weapon","progression","items","#_u_boss_drop","chapter","#_ch_2","ch_2","2_ch_2","1_ch_2","3_ch_2"]
 },
 
 "6_t_items": {
@@ -2328,7 +2340,7 @@ var bingoList = {
 
 "ch_2_slow": {
         "Desc": "Chapter 2 Boss without Vets",
-        "Diff": 23,
+        "Diff": 20,
         "Types": ["combat_challenge","boss","progression","combat","ch_2"]
 },
 
@@ -2380,7 +2392,7 @@ var bingoList = {
         "Types": ["ss_set","ss_chain","ss_II","side_stories","#_ss_II_sets"],
         "Excludes": ["1_ss_II_sets","2_ss_II_sets","3_ss_II_sets"]
 },
-
+/*
 "9_u_lizards_bl": {
         "Desc": "Capture 9 Unique Lizardmen / Lizardking",
         "Diff": 22,
@@ -2404,7 +2416,7 @@ var bingoList = {
         "Diff": 22,
         "Types": ["combat_counts","specific_character","beast_lore","combat_set","combat","#_u_rats_bl"]
 },
-
+*/
 "15_u_critical": {
         "Desc": "15 Unique Critical Equipments",
         "Diff": 22,
@@ -2545,7 +2557,7 @@ var bingoList = {
 
 "20_side_stories": {
         "Desc": "20 Side Stories",
-        "Diff": 19,
+        "Diff": 18,
         "Types": ["broad_ss_set","side_stories","#_side_stories"]
 },
 
@@ -2615,16 +2627,16 @@ var bingoList = {
         "Diff": 18,
         "Types": ["ss_set","ss_woodlands","side_stories","#_ss_woodlands"]
 },
-
+/*
 "10_u_magic_bl": {
         "Desc": "Capture 9 Unique Elemental Themed Enemies",
         "Diff": 25,
         "Types": ["combat_counts","specific_character","beast_lore","combat_set","combat","#_u_magic_bl"]
 },
-
+*/
 "3_u_rune": {
         "Desc": "3 Unique Rune Weapons",
-        "Diff": 20,
+        "Diff": 19,
         "Types": ["item_set","weapon","elem_atk","items","progression","#_u_rune"]
 },
 
