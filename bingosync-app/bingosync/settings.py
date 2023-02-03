@@ -31,6 +31,7 @@ except ImportError:
 DEBUG = not IS_PROD
 
 ALLOWED_HOSTS = ["127.0.0.1", "localhost", "bingosync.bingothon.com"]
+CSRF_TRUSTED_ORIGINS = ['https://bingosync.bingothon.com']
 
 EMAIL_HOST = "localhost"
 EMAIL_PORT = 25
