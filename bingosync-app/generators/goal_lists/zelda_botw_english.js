@@ -708,6 +708,6 @@ bingoList[25] = [
     { name: "'The Weapon Connoisseur' Side Quest", types: ["Side Quest", "Equipment"] },
     { name: "Capture 69 Compendium Pics", types: ["Camera", "Compendium"] },
     { name: "Obtain an 'Ancient' Weapon, Bow, and Shield", types: ["Equipment"] },
-    { name: "Pray at every Goddess Statue (Fully Activated)", types: ["Shrine","Dragon"] }
+    { name: "Pray at all 14 Goddess Statues (Fully Activated)", types: ["Shrine","Dragon"] }
 ];
 module.exports = bingoList;
