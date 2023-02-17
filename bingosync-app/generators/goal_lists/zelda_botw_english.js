@@ -710,6 +710,7 @@ bingoList[25] = [
     { name: "Tu Ka'loh, Korgu Chideh, Hawa Koth, Hia Miu, Saas Ko'sah", types: ["Shrine","Hyrule Castle","Eventide","Faron","Hebra","Wasteland","Akkala"] },
     { name: "2 Divine Beast Main Quest", types: ["Divine Beast"] },
     { name: "8 Main Quests", types: ["Divine Beast","Main Quest"] },
+    { name: "All Gerudo and Woodland Shrines", types: ["Shrine","Woodland","Gerudo"] },
     { name: "'The Hobbies of the Rich' Side Quest", types: ["Side Quest", "Tarrey Town"] },
     { name: "'From the Ground Up' Side Quest", types: ["Side Quest", "Tarrey Town"] },
     { name: "'The Weapon Connoisseur' Side Quest", types: ["Side Quest", "Equipment"] },
