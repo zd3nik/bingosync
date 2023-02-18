@@ -702,6 +702,7 @@ bingoList[24] = [
     { name: "Remake a Champion's Weapon or Shield", types: ["Divine Beast","Main Quest","Equipment","Rupee","Gems"] }
 ];
 bingoList[25] = [
+    { name: "13th Memory", types: ["Camera"] },
     { name: "Defeat Dark Beast Ganon", types: ["Hyrule Castle"] },
     { name: "Pay 4 Great Faries", types: ["Great Fairy","Rupee","Dueling Peaks","Tabantha","Akkala","Wasteland"] },
     { name: "Kill 15 Hinox/Stalnox", types: ["Miniboss","Hinox"] },
