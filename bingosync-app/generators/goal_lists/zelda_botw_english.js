@@ -695,6 +695,7 @@ bingoList[24] = [
     { name: "Remake a Champion's Weapon or Shield", types: ["Divine Beast","Main Quest","Equipment","Rupee","Gems"] }
 ];
 bingoList[25] = [
+    { name: "13th Memory", types: ["Camera"] },
     { name: "Defeat Dark Beast Ganon", types: ["Hyrule Castle"] },
     { name: "Pay 4 Great Faries", types: ["Great Fairy","Rupee","Dueling Peaks","Tabantha","Akkala","Wasteland"] },
     { name: "Kill 15 Hinox/Stalnox", types: ["Miniboss","Hinox"] },
@@ -703,6 +704,7 @@ bingoList[25] = [
     { name: "Tu Ka'loh, Korgu Chideh, Hawa Koth, Hia Miu, Saas Ko'sah", types: ["Shrine","Hyrule Castle","Eventide","Faron","Hebra","Wasteland","Akkala"] },
     { name: "2 Divine Beast Main Quest", types: ["Divine Beast"] },
     { name: "8 Main Quests", types: ["Divine Beast","Main Quest"] },
+    { name: "All Gerudo and Woodland Shrines", types: ["Shrine","Woodland","Gerudo"] },
     { name: "'The Hobbies of the Rich' Side Quest", types: ["Side Quest", "Tarrey Town"] },
     { name: "'From the Ground Up' Side Quest", types: ["Side Quest", "Tarrey Town"] },
     { name: "'The Weapon Connoisseur' Side Quest", types: ["Side Quest", "Equipment"] },
