@@ -1,11 +1,8 @@
 var bingoList = [];
 bingoList[1] = [
-    { name: "Any 'Boko' Equipment item", types: ["Equipment"] },
-    { name: "Game Over from Fall Damage", types: ["Game Over"] },
-    { name: "Any 'Rusty' Equipment item", types: ["Equipment"] },
-    { name: "Hylian Trousers", types: ["Clothes","Hylian Gear"] },
-    { name: "Kill an enemy using only Flurry Rushes", types: ["Basic Combat"] },
-    { name: "Warm Doublet", types: ["Clothes","Cold Resistance"] },
+    { name: "Any Energizing Meal", types: ["Cooking","Stamina"] },
+    { name: "Any Hasty Meal", types: ["Cooking"] },
+    { name: "Hasty Elixir", types: ["Cooking"] },
     { name: "Kill an enemy using only Magnesis", types: ["Basic Combat"] },
     { name: "Game Over from Guardian Laser", types: ["game Over"] },
     { name: "Game Over from Ice Water", types: ["Game Over"] },
@@ -28,10 +25,7 @@ bingoList[1] = [
 ];
 bingoList[2] = [
     { name: "Save a Traveler in Peril", types: ["Basic Combat"] },
-    { name: "Any Energizing Meal", types: ["Cooking","Stamina"] },
     { name: "Fishing Harpoon", types: ["Equipment"] },
-    { name: "Any Hasty Meal", types: ["Cooking"] },
-    { name: "Hasty Elixir", types: ["Cooking"] },
     { name: "3 Identical Bows", types: ["Equipment"] },
     { name: "Obtain a Silver Rupee", types: ["Rupee"] },
     { name: "Collect 10 Acorns", types: ["Collector","Misc"] },
@@ -362,7 +356,6 @@ bingoList[13] = [
     { name: "Mount the Lord of the Mountain", types: ["Mount","Ridgeland","Stamina"] },
     { name: "'Fireproof Lizard Roundup' Side Quest", types: ["Side Quest","Eldin","Flame Gear","Fireproof"] },
     { name: "Climber's Bandanna ★", types: ["Clothes","Climbing Gear","Great Fairy"] },
-    { name: "Resurrect a Horse", types: ["Mount","Faron","Rupee","Malanya"] },
     { name: "15 Ridgeland Koroks", types: ["Korok","Ridgeland"] },
     { name: "3 Dog Treasures", types: ["Dog Treasure"] },
     { name: "'Diving is Beauty!' Side Quest", types: ["Side Quest","Lanayru"] },
@@ -715,6 +708,6 @@ bingoList[25] = [
     { name: "'The Weapon Connoisseur' Side Quest", types: ["Side Quest", "Equipment"] },
     { name: "Capture 69 Compendium Pics", types: ["Camera", "Compendium"] },
     { name: "Obtain an 'Ancient' Weapon, Bow, and Shield", types: ["Equipment"] },
-    { name: "Activate 'Pray' at every Goddess Statue", types: ["Shrine","Dragon"] }
+    { name: "Pray at all 14 Goddess Statues (Fully Activated)", types: ["Shrine","Dragon"] }
 ];
 module.exports = bingoList;
